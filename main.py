@@ -104,7 +104,7 @@ class Attendance_SystemApp(App):
 Attendance_SystemApp().run()
 
 #For Opening Camera
-#cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret , frame = cap.read()
